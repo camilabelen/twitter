@@ -10,21 +10,26 @@
 	<header>
 		<h1>Twitter</h1>
 	</header>
-
-	<section>
-		<!-- caja izq. con texto -->
+	<!-- caja izq. con texto -->
+	<section>		
 		<div class="left-box">
 			<h2>Reto de código</h2>
 			<p>Hola,<br>soy front-end developer junior</p>
+			<p>código</p>
 		</div>
-		<!-- area para comentarios -->
+	</section>
+	<!-- area para comentarios -->
+	<section class="right-box">
 		<div class="container">
-			<textarea name="post" id="msg" cols="55" rows="6" aria-required="true" placeholder="¿Qué estás pensando?"></textarea>
-			<button type="button" id="tweet">TWEET</button>
-			
+			<!-- comentario con evento onkeyup -->
+			<textarea name="post" id="msg" cols="55" rows="6" aria-required="true" placeholder="¿Qué estás pensando?" onkeyup="enableCount()"></textarea>
+			<!-- boton para publicar con evento onclick -->
+			<button type="button" id="tweet" onclick="newTweet()">TWEET</button>
 		</div>	
+		<!-- contador regresivo de caracteres -->
+		<p id="tweetLength">140</p>
 		<!-- contenedor para nuevos comentarios -->
-			<div id="cont"></div>
+		<div id="cont"></div>
 	</section>
 
 	<script type="text/javascript" src="assets/js/app.js"></script>

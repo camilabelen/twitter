@@ -34,6 +34,12 @@ h1{
 	
 }
 
+.left-box p:last-child{
+	color: #547389;
+	font-weight: 600;
+	margin-top: 70px;
+}
+
 .container{
 	width: 500px;
 	height: 200px;
@@ -71,14 +77,30 @@ button:focus{
 	outline: 0;
 }
 
+#tweetLength{
+	color: #547389;
+	font-size: 1em;
+	font-weight: 600;
+	float: left;
+	margin-top: 250px;
+	margin-left: -50px;
+
+}
+
 #cont{
-	background-color: #FFF;
 	color: #171717;
-	border-radius: 0.4em;
 	width: 51em;
 	margin: 100px 0 20px 250px;
 	text-align: left;
 	float: left;
 	padding-left: 10px;
 
+}
+
+#cont div{
+	height: auto;
+	padding: 1px;
+	margin-bottom: 20px;
+	background-color: #FFF;	
+	border-radius: 0.4em;
 }
