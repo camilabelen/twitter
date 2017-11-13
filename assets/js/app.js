@@ -62,6 +62,7 @@ function newTweet(){
 	contenedorElemento.appendChild(textNewComment);
 	addComment.appendChild(contenedorElemento);
 	cont.appendChild(addComment);
+	document.getElementById("tweet").disabled = true;
 }
 
 
