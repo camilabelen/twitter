@@ -21,3 +21,7 @@ Agregar la hora en que se publicó el tweet. En el formato de 24 horas: hh:mm.
 ## Resultado:
 
 ![img](https://image.ibb.co/fxkcn7/twitter.png)
+
+## Desarrollado para
+[Laboratoria](http://www.laboratoria.la/)
+
